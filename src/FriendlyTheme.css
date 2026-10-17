@@ -1,0 +1,182 @@
+.sidebar {
+  color: #eaf1f7;
+  background: var(--harbor);
+}
+
+.brand-mark span { background: #a7d2e7; }
+.workspace-switcher,
+.profile-switcher { color: #eaf1f7; }
+.workspace-avatar { color: #29465d; background: #f1d8a2; }
+.workspace-copy span,
+.sidebar-tip p { color: #b7c7d4; }
+.nav-label { color: #a8bece; }
+.nav-item { color: #d2deea; }
+.nav-item > svg { color: #aec2d1; }
+.nav-item.active { color: #fff; background: var(--harbor-active); }
+.nav-item.active > svg { color: #ffb096; }
+.nav-count { color: #d6e3ed; background: rgba(226, 238, 247, .15); }
+.nav-count-accent { color: #ffd2bd; background: rgba(236, 118, 88, .2); }
+.sidebar-tip { background: rgba(16, 36, 53, .25); }
+.tip-icon { color: #ffd2a1; background: rgba(244, 211, 161, .16); }
+.sidebar-tip button { color: #ffc09f; }
+.avatar-maya { color: #314f67; background: #c9deea; }
+.topbar-avatar { color: #365d79; background: #dcebf4; }
+
+.breadcrumb { color: #778999; }
+.breadcrumb strong { color: #344d63; }
+.eyebrow { color: #74879a; }
+.page-heading h1,
+.section-heading h2,
+.stat-value,
+.reminder-page-heading h2 { color: #2b4157; }
+.heading-subtitle,
+.stat-label,
+.stat-note,
+.stat-caption { color: #718395; }
+.button-primary { border-color: var(--blue); background: var(--blue); }
+.button-primary:hover { border-color: var(--blue-deep); background: var(--blue-deep); }
+.button-outline { color: #3c627e; border-color: #d5e2ec; }
+.button-outline:hover { border-color: #a9c6d8; background: #f3f8fc; }
+.button-quiet { color: #586f83; border-color: #dfe7ee; }
+.button-quiet:hover { border-color: #c4d4e1; background: #f6f9fc; }
+.icon-button { color: #5d7388; }
+.icon-button:hover { color: #315f80; border-color: #d7e4ed; background: #eff6fb; }
+.global-search { color: #70869a; border-color: #dce6ee; background: #f8fafc; }
+.global-search input { color: #314c62; }
+.global-search kbd { color: #708397; border-color: #dce5ed; }
+
+.stat-change { color: #397b9f; }
+.section-heading-icon { color: #7599b0; }
+.text-button { color: #3d789d; }
+.text-button:hover { color: #285f81; }
+.live-dot,
+.listening-indicator > span { background: #51a1b1; }
+.pipeline-stage:hover { border-color: #9dbcd1; }
+.stage-top { color: #72869a; }
+.stage-top strong { color: #3a5369; }
+.stage-track { background: #eaf0f5; }
+.stage-track > span { background: #4d8fb4; }
+.stage-1 .stage-track > span { background: #62a9bb; }
+.stage-2 .stage-track > span { background: #5884aa; }
+.stage-3 .stage-track > span { background: #d2a454; }
+.stage-4 .stage-track > span { background: #e17c62; }
+.mini-avatar { color: #466d88; background: #e3eff7; }
+.reminder-check:hover { color: #3e84a6; border-color: #83b0c7; background: #eef7fb; }
+.reminder-title { color: #3d5367; }
+.reminder-meta,
+.reminder-chevron { color: #8294a5; }
+.recent-candidate-copy strong,
+.table-candidate strong,
+.table-role strong { color: #344e64; }
+.recent-candidate-copy > span,
+.table-candidate small,
+.table-role small { color: #8092a3; }
+.avatar { color: #416a85; border-color: #dbe7ef; background: #e8f1f7; }
+.stage-badge { color: #40789a; background: #e6f1f7; }
+.stage-badge-screen { color: #397f91; background: #e4f3f6; }
+.stage-badge-interview { color: #476f9b; background: #eaf0f8; }
+.stage-badge-offer { color: #98723a; background: #f8f0dd; }
+.stage-badge-hired { color: #a85c4b; background: #f9ece8; }
+.stage-select { color: #40789a; background-color: #e6f1f7; }
+.stage-select-screen { color: #397f91; background-color: #e4f3f6; }
+.stage-select-interview { color: #476f9b; background-color: #eaf0f8; }
+.stage-select-offer { color: #98723a; background-color: #f8f0dd; }
+.stage-select-hired { color: #a85c4b; background-color: #f9ece8; }
+.fit-score { color: #397b9f; }
+.note-tag { color: #4b7591; background: #eaf2f8; }
+.activity-avatar { color: #446d88; background: #e4eff7; }
+.activity-copy > strong { color: #3e566b; }
+.activity-note { color: #708498; }
+.table-footer,
+.source-label { color: #7e91a2; }
+.filter-pill { color: #71869a; }
+.filter-pill.selected { color: #356d91; border-color: #c7dce8; background: #edf6fa; }
+.filter-pill.selected span { color: #5587a1; }
+.candidate-table-row:hover,
+.candidate-table-row.selected-row { background: #f1f7fb; }
+.profile-stage-select { color: #405e77; border-color: #dce6ee; background: #f8fafc; }
+.contact-line { color: #8193a3; }
+.contact-line strong { color: #526a7f; }
+.profile-note > p { color: #60768a; }
+.profile-score { color: #6c8092; background: #f1f6fa; }
+.profile-score > svg { color: #b58b47; }
+.profile-score strong { color: #3f7fa0; }
+.profile-empty { color: #8595a4; }
+.profile-company { color: #738ca0; }
+.profile-identity h2 { color: #2d485f; }
+.profile-identity p { color: #71869a; }
+.timeline-marker { background: #e77f62; }
+.timeline-item strong { color: #47647a; }
+.timeline-item p { color: #6e8395; }
+.profile-contact-link { color: #397da2; }
+
+.candidate-select input,
+.report-field-options input,
+.consent-check input { accent-color: var(--blue); }
+.resume-dropzone { border-color: #bdd4e2; background: #f4f9fc; }
+.upload-icon,
+.integration-icon,
+.submission-icon { color: #427fa2; background: #e5f0f7; }
+.resume-dropzone strong { color: #47657b; }
+.resume-dropzone span { color: #8095a5; }
+.resume-extracted { color: #4d7892; }
+.form-error { color: #b34f42; }
+.form-grid input:focus,
+.form-grid select:focus,
+.modal-form input:focus,
+.modal-form select:focus,
+.note-controls select:focus,
+.submission-textarea:focus { border-color: #70a5c1; box-shadow: 0 0 0 3px rgba(68, 127, 164, .13); }
+.kanban-column { border-color: #d9e5ee; background: #f2f7fb; }
+.kanban-column-heading { color: #536e83; }
+.kanban-column-heading span:last-child { color: #4c7792; background: #e1eef6; }
+.kanban-card { border-color: #dce7ef; }
+.kanban-card-name { color: #345b76; }
+.job-switch { color: #587186; border-color: #dce6ee; }
+.job-switch.active { border-color: #a7c6d9; background: #f2f8fc; }
+.job-switch span { color: #3d5d75; }
+.job-open-pill { color: #3d7897; background: #e6f1f7; }
+.job-board-heading > div > strong { color: #304a60; }
+.job-meta-row strong { color: #45657d; }
+.client-monogram { color: #426e8a; background: #e4eff7; }
+.client-state.active { color: #3f7792; background: #e6f2f7; }
+.client-card h2 { color: #304d63; }
+.client-contact strong { color: #526b7e; }
+.client-metrics strong { color: #477f9d; }
+.submission-card h2 { color: #304d63; }
+.submission-client { color: #628198; }
+.submission-narrative { color: #637c91; }
+.report-tile > strong { color: #355f7b; }
+.report-tile > span { color: #73899a; }
+.report-bar { background: #e8eff5; }
+.report-bar-fill { background: #4d8fb4; }
+.report-color-1 { background: #62a9bb; }
+.report-color-2 { background: #638caf; }
+.integration-card h2 { color: #304d63; }
+.integration-card p { color: #718799; }
+.integration-card-top { color: #7d91a3; }
+.integration-footnote { color: #8a9baa; }
+.saved-search-row > span { color: #8194a5; }
+.saved-search-row .filter-pill { border-color: #d9e7ef; background: #f4f9fc; }
+.quick-filters label { color: #7a8fa1; }
+.quick-filters select { color: #456b85; border-color: #dce7ef; }
+.quick-search-results { border-color: #d8e5ee; }
+.quick-search-results section > small { color: #8096a8; }
+.quick-search-results section > button { color: #517d99; }
+.quick-search-results section > button:hover { background: #eef6fb; }
+.quick-search-results section > button strong { color: #365b75; }
+.quick-search-results section > button small { color: #7c91a2; }
+.call-start-button { background: #4383a4; }
+.call-start-button:hover { background: #326e91; }
+.mic-button { color: #477f9c; border-color: #d6e4ed; background: #f2f8fb; }
+.mic-button:hover { border-color: #a6c5d8; background: #eaf4f9; }
+.note-input-wrap textarea { color: #425d72; border-color: #d8e4ec; }
+.note-assistant-actions button { color: #52738a; border-color: #dce7ee; }
+.note-assistant-actions button:hover { border-color: #b7d1df; background: #f0f7fa; }
+.privacy-note { color: #8495a3; }
+.toast { color: #416982; border-color: #d5e5ee; }
+.toast svg { color: #4784a4; }
+
+@media (max-width: 680px) {
+  .nav-item.active { background: #3b5f7e; }
+}
